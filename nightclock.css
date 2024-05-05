@@ -1,0 +1,46 @@
+/*
+  NightClock page styles
+  2024-05-04, 05 gbk
+*/
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#clock {
+  width: 100vw;
+  height: 100vh;
+  font-size: 30vw;
+  font-family: monospace;
+  line-height: 100vh;
+  text-align: center;
+}
+#clock.green {
+  color: #00ff00;
+}
+#clock.red {
+  color: #ff0000;
+}
+#clock.blue {
+  color: #0000ff;
+}
+#clock.yellow {
+  color: #ffff00;
+}
+#clock.white {
+  color: #ffffff;
+}
+#clock.orange {
+  color: #ff8000;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+}
